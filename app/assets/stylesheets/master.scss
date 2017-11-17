@@ -64,6 +64,10 @@ h2{
     
 }
 
+h2 span{
+    color: black;
+}
+
 .next-qoute{
     color: #f84342;
     font-family: 'alex_brushregular';
@@ -79,4 +83,14 @@ h2{
     
 .logo:hover{
     text-decoration: none;
+}
+
+@media (max-width: 750px){
+    .footer-blurb{
+        text-align: left;
+    }
+}
+
+::selection{
+    background-color: #f84342;
 }
