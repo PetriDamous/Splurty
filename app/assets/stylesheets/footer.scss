@@ -9,8 +9,14 @@ body {
 .footer {
   position: absolute;
   bottom: 0;
-  width: 100%;
+  width: 101.1%;
   /* Set the fixed height of the footer here */
   height: 60px;
-  
+  margin-left: 0.5px;
+
+  background: #7d7e7d;
+  background: -moz-linear-gradient(left, #7d7e7d 0%, #0e0e0e 100%);
+  background: -webkit-linear-gradient(left, #7d7e7d 0%,#0e0e0e 100%);
+  background: linear-gradient(to right, #7d7e7d 0%,#0e0e0e 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=1 );
 }
