@@ -4,13 +4,6 @@
 @import url('https://fonts.googleapis.com/css?family=Crete+Round');
 
 
-body{
-    background-image: url("barry_burton_02.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-}
-
 .clear{
     clear: both;
     
@@ -67,12 +60,12 @@ h1{
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
     font-size: 40px;
-    color: white;
+    color: black;
 }
 
 h2{
     font-family: 'Lobster', cursive;
-    color: white;
+    color: black;
 }
 
 h2 span{
@@ -121,12 +114,12 @@ a:hover{
 
 p{
    font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif; 
-    color: white;
+    color: black;
     
 }
 
 .pic_border{
-   border: 1px solid white; 
+   border: 1px solid black; 
 }
 
 
